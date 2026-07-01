@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - '@tssuite/testproject_3@0.1.7'
