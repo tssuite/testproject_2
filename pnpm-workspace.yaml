@@ -1,2 +1,3 @@
 minimumReleaseAgeExclude:
   - '@tssuite/testproject_3@0.1.7'
+  - '@tssuite/testproject_3@0.1.8'

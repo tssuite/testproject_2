@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/testproject_3':
-        specifier: 0.1.7
-        version: 0.1.7
+        specifier: 0.1.8
+        version: 0.1.8
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -316,8 +316,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/testproject_3@0.1.7':
-    resolution: {integrity: sha512-p1PDp2AkixlUc3rxV2TT2m2iRKysP4syYtBVR2YKnh8uZWEob9rZTA8AW3QnQmIUFezw7WNKQeAQFyb4CyDWBA==}
+  '@tssuite/testproject_3@0.1.8':
+    resolution: {integrity: sha512-xJJNXylOi3U/a0hnkJmMjOAjatQgSgQ+4/+xjNKIZYcbpStYRCGpEks22tk3B1rWG6ABFZmZE/KH/cvoz2IegA==}
     engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
@@ -1201,6 +1201,7 @@ packages:
   tsconfck@3.1.6:
     resolution: {integrity: sha512-ks6Vjr/jEw0P1gmOVwutM3B7fWxoWBL2KRDb1JfqGVawBmO5UsvmWOQFGHBPl5yxYz4eERr19E6L7NMv+Fej4w==}
     engines: {node: ^18 || >=20}
+    deprecated: unmaintained
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
@@ -1630,7 +1631,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/testproject_3@0.1.7': {}
+  '@tssuite/testproject_3@0.1.8': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:
