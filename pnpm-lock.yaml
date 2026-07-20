@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/testproject_3':
-        specifier: link:../testproject_3
-        version: link:../testproject_3
+        specifier: git+https://github.com/tssuite/testproject_3.git#typescript-test-001
+        version: https://codeload.github.com/tssuite/testproject_3/tar.gz/5136b46a7b2247a38a8b4f6629eba1319c3d0134
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -315,6 +315,11 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
+
+  '@tssuite/testproject_3@https://codeload.github.com/tssuite/testproject_3/tar.gz/5136b46a7b2247a38a8b4f6629eba1319c3d0134':
+    resolution: {gitHosted: true, integrity: sha512-j5vmCpDIBxQ0Cskf3bBM9ZtHz+0JZAK481xRMlceENlqYakwovrC1RyEI9l9Pn3a+zzjFu8wOlyn8aOS4xWYVg==, tarball: https://codeload.github.com/tssuite/testproject_3/tar.gz/5136b46a7b2247a38a8b4f6629eba1319c3d0134}
+    version: 0.1.7
+    engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
     resolution: {integrity: sha512-RoBvJ2X0wuKlWFIjrwffGw1IqZHKQqzIchKaadZZfnNpsAYp2mM0h36JtPCjNDAHGgYez/15uMBpfGwchhiMgg==}
@@ -1626,6 +1631,8 @@ snapshots:
   '@sindresorhus/base62@1.0.0': {}
 
   '@standard-schema/spec@1.1.0': {}
+
+  '@tssuite/testproject_3@https://codeload.github.com/tssuite/testproject_3/tar.gz/5136b46a7b2247a38a8b4f6629eba1319c3d0134': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:
