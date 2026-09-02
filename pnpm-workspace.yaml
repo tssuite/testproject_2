@@ -1,5 +1,5 @@
 minimumReleaseAgeExclude:
-  - '@tssuite/testproject_3@0.1.7'
-  - '@tssuite/testproject_3@0.1.8'
+  - '@tssuite/testproject_3@0.1.7 || 0.1.8'
+  - '@tssuite/helix-js@0.1.0'
 overrides:
-  "@tssuite\/testproject_3": link:../testproject_3
+  "@tssuite/testproject_3": link:../testproject_3
